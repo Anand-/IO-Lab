@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do List</title>
+    
+    <!-- link to css file -->
+    <link rel="stylesheet" type="text/css" href="_css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_css/bootstrap-theme.min.css" />    
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	
+    <!-- link to javascript files -->
+    <script src="./_js/jquery-1.10.2.min.js"></script>
+    <script src="./_js/script.js"></script>
+    <script src="./_js/location.js"></script>
+</head>
+<body>
+  <section id='container'>
+  	<H2>Ever.Do</H2>
+	  <div id='Selection'>
+	    <label> Enter an item to add </label>
+	    <input type="text" id='txtAdd'></input>
+	    <button id='btnAdd'>Add</button>
+	  </div>
+
+	  <div class="list">
+	    <table id='listTable'>
+	      <tr>
+	        <td class="tdItemText">
+	          <span class="tdText">Item 1</span>
+	        </td>
+	        <td class='tdItemBtn'>
+	          <button class='tdBtn'>X</button>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td class="tdItemText">
+	          <span class="tdText">Shopping #TJ</span>
+	        </td>
+	        <td class='tdItemBtn'>
+	          <button class='tdBtn'>X</button>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td class="tdItemText">
+	          <span class="tdText">Item 2</span>
+	        </td>
+	        <td class='tdItemBtn'>
+	          <button class='tdBtn'>X</button>
+	        </td>
+	      </tr>
+	      <tr>
+	        <td class="tdItemText">
+	          <span class="tdText">Shopping2 #TJ</span>
+	        </td>
+	        <td class='tdItemBtn'>
+	          <button class='tdBtn'>X</button>
+	        </td>
+	      </tr>
+	    </table>
+	  </div>  
+  </section>
+
+  <section id='container2'>
+  	<h3>Trader Joe's is close by!</h3>
+	  <div class="list">
+	    <table id='listTabledyn'>	      
+	    </table>
+	  </div>
+  </section>
+</body>
+</html>
