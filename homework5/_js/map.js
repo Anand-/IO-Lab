@@ -24,15 +24,18 @@ function GetEarthquakes(){
       {
         var data = JSON.parse(xmlhttp.responseText);
 
-        var imageUrl = './_css/scale.jpg';
-        imageBounds = [[180,0], [-180,-0]];
-        L.imageOverlay(imageUrl,imageBounds).addTo(map);
+        // var imageUrl = './_css/scale.jpg';
+        // imageBounds = [[180,0], [-180,-0]];
+        // L.imageOverlay(imageUrl,imageBounds).addTo(map);
 
 
         markers = new L.featureGroup();
         var mag = 0;
         
         for(var i=0;  i< data.features.length; i++){
+          if(data.features[i]==null){
+            continue;
+          }
           var prop = data.features[i].properties;
           var geom= data.features[i].geometry;
           var coords = geom.coordinates;
