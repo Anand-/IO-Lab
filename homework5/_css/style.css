@@ -1,0 +1,11 @@
+/* content */
+
+#map{
+	height: 400px;
+}
+#list:hover{
+	cursor: pointer;
+	cursor: hand;
+	text-align: :center;
+}
+
