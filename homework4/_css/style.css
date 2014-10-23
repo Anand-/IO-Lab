@@ -1,0 +1,62 @@
+/* content */
+
+body{
+	background: url("earth.jpg");	
+	
+    width:100%;
+}
+
+
+tr{
+	padding: 1px;
+	text-align: center;	
+}
+
+td{
+	padding: 1px 1px 1px 1px;
+	border-top: 1px solid black;
+}
+
+h2,h3{
+	text-align: center;
+	color: white : #dddddd;
+	font-size: 200%;
+	background-color: #ffffff;
+	opacity: 0.8;
+}
+
+th{
+	background-color: #dddddd;
+}
+
+
+
+#container {
+	margin: 40px auto;
+	overflow: hidden;
+	width: 1300px
+}
+
+#myDiv{
+	width:100%
+	margin: 30px 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+
+#eqTable{
+	width:100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+tr:hover{
+	background: #d1d1d1;
+	padding-left: 16px;
+	padding-right: 16px;
+};
+
+
+
