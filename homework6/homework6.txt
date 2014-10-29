@@ -1,0 +1,15 @@
+"http://milowski.com/syllabus/Homework,Get Setup!,09-04"
+"http://milowski.com/syllabus/Homework,Back to the Future with CSS3,09-04"
+"http://milowski.com/syllabus/Homework,Scripting - To do? Or not TO DO?!,09-04"
+"http://milowski.com/syllabus/Homework,Accessing USGS Earthquake Data,09-04"
+"http://milowski.com/syllabus/Homework,Mapping Earthquakes,09-04"
+"http://milowski.com/syllabus/Homework,Triples in a Haystack,09-04"
+"http://milowski.com/syllabus/Homework,Querying Shakespeare,09-04"
+
+
+"http://milowski.com/syllabus/Presentation,Your Pitches (P1),09-16"
+"http://milowski.com/syllabus/Presentation,Your Pitches (P1),09-18"
+"http://milowski.com/syllabus/Presentation,Your Pitches (P1),09-16"
+"http://milowski.com/syllabus/Presentation,Mockup (P2),10-09"
+"http://milowski.com/syllabus/Presentation,Information Design (P3),10-30"
+"http://milowski.com/syllabus/Presentation,Implementation Updates (P4) and Fire Fighting,11-25"
